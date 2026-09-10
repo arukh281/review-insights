@@ -9,10 +9,9 @@ Business owners sign in with Google, generate tokenized public review links, and
 - **Sort them:** an LLM files every review into six subject buckets: staff and service, food and drinks, cleanliness and ambience, stock and orders, pricing and trust, and delivery and operations.
 - **Act on them:** health scores, plus an organisation-level strategy that surfaces the top improvement priorities.
 
-## Live deployment
+## Stack
 
-- Production: [https://reviewinsights.vercel.app](https://reviewinsights.vercel.app)
-- Stack: Next.js 16 (App Router), React 19, Prisma 5, PostgreSQL, Tailwind 4
+Next.js 16 (App Router), React 19, Prisma 5, PostgreSQL, Tailwind 4
 
 ## Quick start
 
