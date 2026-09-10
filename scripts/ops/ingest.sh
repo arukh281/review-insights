@@ -7,7 +7,7 @@ source "$ROOT_DIR/scripts/ops/ui.sh"
 
 ENV_FILE=".env_supabase"
 LOCAL_DB_USER="${USER:-postgres}"
-DEFAULT_LOCAL_URL="postgresql://${LOCAL_DB_USER}@localhost:5432/fynd?schema=public"
+DEFAULT_LOCAL_URL="postgresql://${LOCAL_DB_USER}@localhost:5432/review_insights?schema=public"
 DEFAULT_REVIEWS_FILE="scripts/reviews/manual-google-reviews.json"
 REVIEW_OPTIONS=(
   "scripts/reviews/manual-google-reviews.json"

@@ -15,7 +15,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fynd",
+  title: "Review Insights",
   description: "Reviews, signals, and operations",
 };
 

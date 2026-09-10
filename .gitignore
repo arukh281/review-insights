@@ -68,3 +68,10 @@ next-env.d.ts
 
 report/
 .cursor/
+
+# Editor / AI tool config and private notes
+.claude/
+.cursor/
+prompt_context/
+context.md
+report.md

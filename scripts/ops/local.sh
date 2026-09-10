@@ -6,8 +6,8 @@ cd "$ROOT_DIR"
 source "$ROOT_DIR/scripts/ops/ui.sh"
 
 LOCAL_DB_USER="${USER:-postgres}"
-DEFAULT_LOCAL_URL="postgresql://${LOCAL_DB_USER}@localhost:5432/fynd?schema=public"
-DEFAULT_DB_NAME="fynd"
+DEFAULT_LOCAL_URL="postgresql://${LOCAL_DB_USER}@localhost:5432/review_insights?schema=public"
+DEFAULT_DB_NAME="review_insights"
 RUN_DEV=false
 
 for arg in "$@"; do

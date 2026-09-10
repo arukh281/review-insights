@@ -42,7 +42,7 @@ export default async function AdminLayout({
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-3">
           <div className="flex items-baseline gap-3">
             <span className="font-mono text-[10px] uppercase tracking-[0.28em] text-[var(--muted)]">
-              Fynd
+              Review Insights
             </span>
             <span className="text-[var(--fg)] text-sm font-medium tracking-tight">
               Console
