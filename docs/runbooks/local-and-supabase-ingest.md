@@ -9,7 +9,7 @@ Use this as a direct checklist. No extras.
 Run from project root:
 
 ```bash
-createdb fynd
+createdb review_insights
 cp scripts/reviews/manual-google-reviews.example.json scripts/reviews/manual-google-reviews.json
 npx prisma migrate deploy
 ```
@@ -45,7 +45,7 @@ bash scripts/ops/local.sh
 What it does:
 
 - verifies local PostgreSQL is running on `localhost:5432`
-- creates DB if missing (default `fynd`)
+- creates DB if missing (default `review_insights`)
 - runs Prisma migrations
 - prints the local DB URLs
 

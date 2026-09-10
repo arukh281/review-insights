@@ -7,7 +7,7 @@ source "$ROOT_DIR/scripts/ops/ui.sh"
 
 print_menu() {
   echo
-  ui_title "Fynd Ops Menu"
+  ui_title "Review Insights Ops Menu"
   ui_menu_item "1" "Bootstrap local database"
   ui_menu_item "2" "Ingest reviews (local or supabase)"
   ui_menu_item "3" "Reset one owner (local or supabase)"

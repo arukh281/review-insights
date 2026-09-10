@@ -26,7 +26,7 @@ fi
 
 if [[ "$TARGET" == "1" ]]; then
   LOCAL_DB_USER="${USER:-postgres}"
-  DEFAULT_LOCAL_URL="postgresql://${LOCAL_DB_USER}@localhost:5432/fynd?schema=public"
+  DEFAULT_LOCAL_URL="postgresql://${LOCAL_DB_USER}@localhost:5432/review_insights?schema=public"
   read -r -p "Local DB URL [${DEFAULT_LOCAL_URL}]: " INPUT_URL
   LOCAL_DB_URL="${INPUT_URL:-$DEFAULT_LOCAL_URL}"
 

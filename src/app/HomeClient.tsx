@@ -11,7 +11,7 @@ export function HomeClient() {
     <main className="container-center py-16">
       <div className="mx-auto max-w-lg">
         <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-[var(--muted)]">
-          Fynd · Owners
+          Review Insights · Owners
         </p>
         <h1 className="hero-title mt-2">Run your review desk</h1>
         <p className="muted mt-4 text-sm leading-relaxed">

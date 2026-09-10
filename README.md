@@ -1,12 +1,17 @@
-# Fynd
+# Review Insights
 
 Owner-first review management app built with Next.js, Prisma, and PostgreSQL.
 Business owners sign in with Google, generate tokenized public review links, and optionally sync Google Business Profile reviews.
 
-## Live deployment
+## What it does
 
-- Production: [https://major-project-fynd.vercel.app](https://major-project-fynd.vercel.app)
-- Stack: Next.js 16 (App Router), React 19, Prisma 5, PostgreSQL, Tailwind 4
+- **Collect reviews:** each business location gets a tokenized public review link (with a QR code), and existing Google Business Profile reviews can be imported.
+- **Sort them:** an LLM files every review into six subject buckets: staff and service, food and drinks, cleanliness and ambience, stock and orders, pricing and trust, and delivery and operations.
+- **Act on them:** health scores, plus an organisation-level strategy that surfaces the top improvement priorities.
+
+## Stack
+
+Next.js 16 (App Router), React 19, Prisma 5, PostgreSQL, Tailwind 4
 
 ## Quick start
 

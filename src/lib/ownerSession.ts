@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { shouldUseSecureCookie } from "@/lib/cookieSecure";
 
-export const OWNER_SESSION_COOKIE = "fynd_owner_session";
+export const OWNER_SESSION_COOKIE = "review_insights_owner_session";
 
 const SESSION_MAX_AGE_SEC = 60 * 60 * 24 * 14; // 14 days
 
